@@ -1,0 +1,28 @@
+{
+  "name": "LazyAdsense",
+  "version": "1.0.6",
+  "description": "Lazyload Adsense Ads with Intersection Observer.",
+  "homepage": "https://github.com/Niresh12495/LazyAdsense",
+  "authors": [
+    "Niresh Balakrishnan < Facebook.com/Niresh >"
+  ],
+  "main": "dist/adsense-lazyload.js",
+  "keywords": [
+    "ads",
+    "lazyload ads",
+    "async",
+    "responsive",
+    "intersection observer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "gruntfile.js",
+    "package.json"
+  ]
+}

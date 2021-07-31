@@ -1,0 +1,40 @@
+{
+  "name": "lazyadsense",
+  "version": "1.0.6",
+  "description": "Lazyload Adsense Ads with Intersection Observer.",
+  "homepage": "https://github.com/Niresh12495/LazyAdsense",
+  "author": "Niresh Balakrishnan ( Facebook.com/Niresh )",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niresh12495/LazyAdsense.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Niresh12495/LazyAdsense/issues"
+  },
+  "main": "dist/lazyad-loader.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "rimraf dist && grunt"
+  },
+  "keywords": [
+    "ads",
+    "lazyload ads",
+    "async",
+    "responsive",
+    "intersection observer"
+  ],
+  "devDependencies": {
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-clean": "~2.0.0",
+    "grunt-contrib-concat": "~1.0.1",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-uglify": "~5.0.1",
+    "grunt-contrib-watch": "~1.1.0",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "grunt": "^1.4.1",
+    "postscribe": "^2.0.8"
+  },
+  "license": "ISC"
+}
