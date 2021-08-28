@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/Niresh12495/LazyAdsense/issues"
   },
-  "main": "dist/lazyad-loader.js",
+  "main": "dist/adsense-lazyload.min.js",
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "rimraf dist && grunt"
