@@ -1,7 +1,7 @@
 /**
-* lazyadsense v 1.0.6
+* lazyadsense v 1.0.7
 * Lazyload Adsense Ads with Intersection Observer.
-* Niresh . Build date: 01-08-2021
+* Niresh . Build date: 29-08-2021
 * Facebook.com/Niresh 
 */
 
